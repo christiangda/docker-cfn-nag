@@ -118,7 +118,7 @@ cd docker-cfn-nag/
 docker build --no-cache --rm \
             --build-arg CFN_NAG_VERSION=0.3.55 \
             --tag <your name>/cfn-nag:0.3.55 \
-            --tag <your name>/kafka:latest .
+            --tag <your name>/cfn-nag:latest .
 ```
 
 # This is possible thanks to
