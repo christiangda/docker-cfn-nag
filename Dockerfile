@@ -4,7 +4,7 @@ FROM ruby:2.4
 ARG CFN_NAG_VERSION
 
 # Environment variables
-ENV CFN_NAG_VERSION=${CFN_NAG_VERSION:-0.3.55} \
+ENV CFN_NAG_VERSION=${CFN_NAG_VERSION:-0.3.68} \
   CFN_NAG_HOME="/work"
 
 # Container's Labels
